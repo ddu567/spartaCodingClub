@@ -1,4 +1,4 @@
-package codingTest;
+package codingTest.week1;
 
 import java.io.BufferedReader;
 import java.io.IOException;

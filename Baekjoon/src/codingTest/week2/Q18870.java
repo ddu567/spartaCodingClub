@@ -1,21 +1,20 @@
-package codingTest.week1;
+package codingTest.week2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.HashMap;
-// 못 풀었음
-public class Q25192 {
+import java.util.StringTokenizer;
+
+public class Q18870 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(br.readLine());
-        HashMap<String, Integer> list = new HashMap<>();
+        int[] X = new int[N];
 
+        StringTokenizer  st = new StringTokenizer(br.readLine());
         for (int i = 0; i < N; i++) {
-            String name = br.readLine();
-            list.put(name, list.getOrDefault(name, 0) + 1);
-
+            X[i] = Integer.parseInt(st.nextToken());
         }
     }
 }
