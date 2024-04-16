@@ -2,7 +2,7 @@ package codingTest.exam;
 
 import java.util.Scanner;
 // 못 풀었음
-public class W101 {
+public class Q1244 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

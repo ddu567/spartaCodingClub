@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class W201 {
+public class Q1697 {
     static boolean[] visited;
 
     public static void main(String[] args) throws IOException {
